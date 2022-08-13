@@ -15,16 +15,49 @@ public class Worker implements Serializable{
 	private Long id;
 	private String name;
 	private Double dailyIncome;
-	
+
+	private String cargo;
+
+	private String empresa;
+
+	private String cnpj;
+
+
 	public Worker() {
 		
 	}
 
-	public Worker(Long id, String name, Double dailyIncome) {
-		super();
+	public Worker(Long id, String name, Double dailyIncome, String cargo, String empresa, String cnpj) {
 		this.id = id;
 		this.name = name;
 		this.dailyIncome = dailyIncome;
+		this.cargo = cargo;
+		this.empresa = empresa;
+		this.cnpj = cnpj ;
+	}
+
+	public String getCargo() {
+		return cargo;
+	}
+
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+
+	public String getEmpresa() {
+		return empresa;
+	}
+
+	public void setEmpresa(String empresa) {
+		this.empresa = empresa;
+	}
+
+	public String getCnpj() {
+		return cnpj;
+	}
+
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
 	}
 
 	public Long getId() {

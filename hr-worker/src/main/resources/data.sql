@@ -1,3 +1,3 @@
-INSERT INTO tb_worker (name, daily_Income) VALUES ('Bob', 200.0);
-INSERT INTO tb_worker (name, daily_Income) VALUES ('Maria', 300.0);
-INSERT INTO tb_worker (name, daily_Income) VALUES ('Alex', 250.0);
+INSERT INTO tb_worker (cnpj, cargo,  daily_Income, empresa, name) VALUES ('94.177.426/0001-69', 'Vendedor', 2500.0, 'Conesul', 'Bob');
+INSERT INTO tb_worker (cnpj, cargo,  daily_Income, empresa, name) VALUES ('09.840.255/0001-37', 'Vendedor', 2000.0, 'Conesul', 'Maria');
+INSERT INTO tb_worker (cnpj, cargo,  daily_Income, empresa, name) VALUES ('01.950.311/0001-84', 'Vendedor', 2500.0, 'Conesul', 'Ana');
