@@ -7,10 +7,15 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: crud-service
-          uri: lb://CRUDSERVICE
+        - id: payroll
+          uri: lb://PAYROLL
           predicates:
-            - Path=/crud-service/**
+            - Path=/payroll/**
+        - id: worker
+          uri: lb://WORKER
+          predicates:
+            - Path=/worker/**
+
 
 eureka:
   instance:

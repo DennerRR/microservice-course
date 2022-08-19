@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0ee8544f-1f40-462d-8cd3-76a6e1fd3003">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="postgresTCE"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<queryString language="SQL">
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="76" splitType="Stretch">
+			<staticText>
+				<reportElement x="175" y="52" width="224" height="20" uuid="7d8f37aa-76b1-478f-b213-08b0fab545db"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Recibo de Pagamento de salário]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="349" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="20" width="555" height="50" uuid="5f25a861-4c5c-482c-9965-e1fa0a5ac33d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="72" width="555" height="37" uuid="a995eaf3-9151-43df-ac3b-a7a3ee08901d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="110" width="49" height="20" uuid="73cde468-70d0-4980-bccc-d7e2fdb66687"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="49" y="110" width="261" height="20" uuid="16ad190f-01ff-4b7d-a676-c9edb63f4096"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="310" y="110" width="61" height="20" uuid="b0360361-c61f-4da9-b0de-1af8293f2b95"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="372" y="110" width="87" height="20" uuid="c12b8283-955c-4480-a752-fec4926f0f2c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="460" y="110" width="95" height="20" uuid="d3551789-d5d2-41e6-a611-7b0cf8152678"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="133" width="49" height="209" uuid="f351df40-73de-425d-8741-75dc4b6ea492"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="49" y="133" width="261" height="209" uuid="a879c624-168c-4dfa-8c8a-3f2286a0cb22"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="310" y="133" width="62" height="209" uuid="623da809-5176-405a-a493-7d22f2570194"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="372" y="133" width="87" height="209" uuid="4ae3ff69-98bd-449e-a3a2-124be3c79fac"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="460" y="133" width="95" height="209" uuid="9da59a9f-7586-4dd3-81b1-a262c6553aee"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="12" y="113" width="26" height="20" forecolor="#636363" uuid="830edcf3-8bea-4fce-896d-32273f0ef982"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cód.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="159" y="114" width="100" height="16" forecolor="#636363" uuid="7f0d278c-8b16-4d58-9b5e-d179d531452e"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descrição]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="115" width="56" height="15" forecolor="#636363" uuid="e7a93833-684f-42b4-8e41-79981f3b3e38"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Referência]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="386" y="115" width="69" height="15" forecolor="#636363" uuid="4a000c01-39fb-440a-947a-9434d8e6654a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Vencimentos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="485" y="115" width="69" height="15" forecolor="#636363" uuid="09d1dff8-9710-4b9a-92f7-3fad599b8218"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descontos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="24" width="54" height="16" forecolor="#636363" uuid="e951573f-ea5f-4d8d-a80c-733f8371615b"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Empresa:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="50" width="34" height="16" forecolor="#636363" uuid="d30d51f2-90fc-48d7-8eeb-43c3b4c1b108"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CNPJ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="73" width="24" height="16" forecolor="#636363" uuid="4ec7bb3d-7e3b-4272-ad05-bfdbfa6fad41"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cód.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="73" width="108" height="16" forecolor="#636363" uuid="e83686a7-0a8b-4da1-a974-a05076492e28"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nome do Funcionário]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="73" width="44" height="16" forecolor="#636363" uuid="35d1543b-e7ab-4d75-a264-2a3d75f1191f"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cargo]]></text>
+			</staticText>
+		</band>
+		<band height="241">
+			<rectangle>
+				<reportElement x="0" y="-4" width="371" height="60" uuid="9131b384-b8d2-4a35-96b5-0119e56f16ae"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="372" y="-4" width="87" height="29" uuid="a77ee8f5-310a-46d6-b231-a4778360de05"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="459" y="-4" width="95" height="29" uuid="acf077ff-b3cb-4245-868a-789b1aca08a2"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="459" y="27" width="95" height="29" uuid="e6fc1092-7bde-4ae9-9cda-e02563a99836"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="372" y="27" width="87" height="29" uuid="481e2f82-99c5-4668-97d0-0f7720996585"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="60" width="555" height="40" uuid="f4fcf9ad-a806-4f31-b004-3d4374f94fb1"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="378" y="-4" width="69" height="15" forecolor="#636363" uuid="48a2ed56-d22e-4a78-adde-84f1253cf02a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Bruto:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="389" y="33" width="69" height="15" forecolor="#636363" uuid="a22b6a59-557b-477e-9ebb-0522339f18a7"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Líquido ->]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="463" y="-5" width="86" height="15" forecolor="#636363" uuid="9e95818d-de72-45c5-90d9-8669933253dd"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Descontos:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="61" width="69" height="15" forecolor="#636363" uuid="e1ad14b9-e796-464c-8db8-ff1936637ba0"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Salário Base:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="114" y="61" width="86" height="15" forecolor="#636363" uuid="533f7dc5-58cc-4cdc-b498-4a9b8d7d7e7c"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Base Calc. INSS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="211" y="61" width="88" height="15" forecolor="#636363" uuid="41544749-2e5d-44e1-a0ce-b7905224fd47"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Base Calc. FGTS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="307" y="61" width="70" height="15" forecolor="#636363" uuid="93b772a8-8d3d-4080-b70e-394671ad4154"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[FGTS do Mês]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="391" y="61" width="82" height="15" forecolor="#636363" uuid="4fc7e76a-648d-4a28-a6d7-a67b4eef0abc"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Base Calc. IRRF]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="490" y="61" width="58" height="15" forecolor="#636363" uuid="258d74ea-291a-43ac-8771-f7bab2afc827"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Faixa IRRF]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="104" width="554" height="80" uuid="01efba45-ef2a-41d3-bfbd-d30ac7e78645"/>
+			</rectangle>
+			<line>
+				<reportElement x="240" y="156" width="279" height="1" uuid="5edeb4a8-c93b-42c8-b166-81f17d13a752"/>
+			</line>
+			<staticText>
+				<reportElement x="306" y="158" width="146" height="14" uuid="2bdd21be-dcd7-4858-82d0-84d96ffd50c6"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Assinatura do funcionário]]></text>
+			</staticText>
+			<line>
+				<reportElement x="47" y="156" width="99" height="1" uuid="4ae8c693-a1d9-4f44-8303-d32eb53a7c10"/>
+			</line>
+			<staticText>
+				<reportElement x="83" y="140" width="30" height="16" uuid="7b84fa6f-44f9-4670-ab83-d8f53590aae7"/>
+				<text><![CDATA[/       /]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="158" width="146" height="14" uuid="344165b6-0faf-4d1b-b5fc-fdbfcb879da1"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Data]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="29" y="104" width="510" height="14" uuid="0dfeac49-c40d-4f33-bcab-1d37587853d2"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[DECLARO TER RECEBIDO A IMPORTÂNCIA LÍQUIDA DISCRIMINADA NESSE RECIBO.]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
